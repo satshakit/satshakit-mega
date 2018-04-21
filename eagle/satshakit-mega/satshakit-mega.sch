@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.4.3">
+<eagle version="8.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -4408,6 +4408,8 @@ wire to board 2.54 mm (0.100") pitch header</description>
 <part name="5V" library="con-amp-quick" library_urn="urn:adsk.eagle:library:125" deviceset="M06" device="" package3d_urn="urn:adsk.eagle:package:5960/1"/>
 <part name="X2" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="C-GRID-20" device="-70543"/>
 <part name="GND" library="con-amp-quick" library_urn="urn:adsk.eagle:library:125" deviceset="M06" device="" package3d_urn="urn:adsk.eagle:package:5960/1"/>
+<part name="LED_YELLOW" library="01_FAB_Hello" deviceset="LED" device="1206"/>
+<part name="R3" library="01_SparkFun" deviceset="RESISTOR" device="1206" value="499"/>
 </parts>
 <sheets>
 <sheet>
@@ -4490,6 +4492,8 @@ wire to board 2.54 mm (0.100") pitch header</description>
 <instance part="X2" gate="-19" x="518.16" y="20.32"/>
 <instance part="X2" gate="-20" x="518.16" y="17.78"/>
 <instance part="GND" gate="G$1" x="520.7" y="134.62" rot="R180"/>
+<instance part="LED_YELLOW" gate="G$1" x="472.44" y="182.88" rot="R270"/>
+<instance part="R3" gate="G$1" x="459.74" y="182.88" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -4697,6 +4701,11 @@ wire to board 2.54 mm (0.100") pitch header</description>
 <junction x="510.54" y="137.16"/>
 <wire x1="510.54" y1="134.62" x2="505.46" y2="134.62" width="0.1524" layer="91"/>
 <label x="505.46" y="134.62" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="R3" gate="G$1" pin="2"/>
+<wire x1="454.66" y1="182.88" x2="447.04" y2="182.88" width="0.1524" layer="91"/>
+<label x="447.04" y="182.88" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$26" class="0">
@@ -5214,6 +5223,11 @@ wire to board 2.54 mm (0.100") pitch header</description>
 <pinref part="SL1" gate="G$1" pin="1"/>
 <wire x1="477.52" y1="139.7" x2="469.9" y2="139.7" width="0.1524" layer="91"/>
 <label x="469.9" y="139.7" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="LED_YELLOW" gate="G$1" pin="A"/>
+<wire x1="477.52" y1="182.88" x2="487.68" y2="182.88" width="0.1524" layer="91"/>
+<label x="487.68" y="182.88" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="35" class="0">
@@ -5898,6 +5912,13 @@ wire to board 2.54 mm (0.100") pitch header</description>
 <pinref part="X2" gate="-18" pin="S"/>
 <wire x1="515.62" y1="22.86" x2="505.46" y2="22.86" width="0.1524" layer="91"/>
 <label x="505.46" y="22.86" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="N$6" class="0">
+<segment>
+<pinref part="LED_YELLOW" gate="G$1" pin="C"/>
+<pinref part="R3" gate="G$1" pin="1"/>
+<wire x1="469.9" y1="182.88" x2="464.82" y2="182.88" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
