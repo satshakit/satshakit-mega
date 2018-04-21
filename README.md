@@ -1,10 +1,8 @@
 <div align="center"><h1 style="font-family: courier;" align="center">satshakit-mega</h1></div>
-
-<div align="center"><img src="media/satshakit-M7-first.jpg" width="70%"></div>
 <div align="center"><i>An open source & fabbable ATMega2560 based microcontroller board.</i></div>
 
-<img src="media/schematic.png" width="70%">
-<img src="media/board.png" width="70%">
+<img src="media/schematic.png" width="100%">
+<img src="media/board.png" width="100%">
 
 License
 --
