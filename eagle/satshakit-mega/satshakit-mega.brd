@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.5.0">
+<eagle version="8.4.3">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -2197,7 +2197,6 @@ design rules under a new name.</description>
 <param name="checkFont" value="1"/>
 <param name="checkRestrict" value="1"/>
 <param name="checkStop" value="0"/>
-<param name="checkValues" value="0"/>
 <param name="useDiameter" value="13"/>
 <param name="maxErrors" value="50"/>
 </designrules>
@@ -2691,16 +2690,16 @@ design rules under a new name.</description>
 <wire x1="31.1658" y1="23.8252" x2="56.2864" y2="23.8252" width="0.3048" layer="1"/>
 <wire x1="31.1658" y1="23.8252" x2="27.432" y2="27.559" width="0.3048" layer="1"/>
 <wire x1="27.432" y1="27.559" x2="27.432" y2="42.6212" width="0.3048" layer="1"/>
-<wire x1="27.4574" y1="42.6466" x2="37.3126" y2="42.6466" width="0.3048" layer="1"/>
 <wire x1="27.4574" y1="42.6466" x2="27.432" y2="42.6212" width="0.3048" layer="1"/>
-<wire x1="27.432" y1="42.6212" x2="27.432" y2="63.624" width="0.3048" layer="1"/>
+<wire x1="27.432" y1="45.7962" x2="27.432" y2="42.6212" width="0.3048" layer="1"/>
+<wire x1="27.432" y1="45.7962" x2="27.432" y2="63.624" width="0.3048" layer="1"/>
 <wire x1="27.432" y1="63.624" x2="28.702" y2="64.894" width="0.3048" layer="1"/>
-<wire x1="37.3126" y1="42.6466" x2="39.1922" y2="44.5262" width="0.3048" layer="1"/>
-<wire x1="39.1922" y1="44.5262" x2="39.1922" y2="45.695" width="0.3048" layer="1"/>
 <wire x1="56.2864" y1="23.8252" x2="58.2676" y2="25.8064" width="0.3048" layer="1"/>
 <wire x1="58.2676" y1="25.8064" x2="58.2676" y2="28.1686" width="0.3048" layer="1"/>
 <wire x1="58.2676" y1="28.1686" x2="67.4624" y2="37.3634" width="0.3048" layer="1"/>
 <wire x1="67.4624" y1="37.3634" x2="67.4624" y2="49.9364" width="0.3048" layer="1"/>
+<wire x1="39.1922" y1="45.695" x2="27.5332" y2="45.695" width="0.3048" layer="1"/>
+<wire x1="27.5332" y1="45.695" x2="27.432" y2="45.7962" width="0.3048" layer="1"/>
 </signal>
 <signal name="75">
 <contactref element="X1" pad="1"/>
