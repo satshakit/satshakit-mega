@@ -4672,7 +4672,7 @@ wire to board 2.54 mm (0.100") pitch header</description>
 <instance part="GND" gate="G$1" x="520.7" y="134.62" rot="R180"/>
 <instance part="LED_YELLOW" gate="G$1" x="472.44" y="182.88" rot="R270"/>
 <instance part="R3" gate="G$1" x="459.74" y="182.88" rot="R180"/>
-<instance part="RST" gate="G$1" x="340.36" y="203.2"/>
+<instance part="RST" gate="G$1" x="220.98" y="165.1"/>
 </instances>
 <busses>
 </busses>
@@ -5081,8 +5081,8 @@ wire to board 2.54 mm (0.100") pitch header</description>
 </segment>
 <segment>
 <pinref part="RST" gate="G$1" pin="1"/>
-<wire x1="347.98" y1="203.2" x2="358.14" y2="203.2" width="0.1524" layer="91"/>
-<label x="358.14" y="203.2" size="1.778" layer="95" xref="yes"/>
+<wire x1="228.6" y1="165.1" x2="238.76" y2="165.1" width="0.1524" layer="91"/>
+<label x="238.76" y="165.1" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="75" class="0">
