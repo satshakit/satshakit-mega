@@ -1,4 +1,5 @@
 <div align="center"><h1 style="font-family: courier;" align="center">satshakit-mega</h1></div>
+<div align="center"><img src="media/board1.jpg" width="100%"></div>
 <div align="center"><i>An open source & fabbable ATMega2560 based microcontroller board.</i></div>
 
 <img src="media/schematic.png" width="100%">
